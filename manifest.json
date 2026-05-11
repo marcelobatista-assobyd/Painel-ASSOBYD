@@ -1,0 +1,44 @@
+{
+  "name": "Painel Executivo ASSOBYD / BYD",
+  "short_name": "ASSOBYD BYD",
+  "description": "Painel de gestão de ATA, Ações e Reuniões — ASSOBYD / BYD",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0A1628",
+  "theme_color": "#0A1628",
+  "lang": "pt-BR",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%230A1628'/%3E%3Ctext x='96' y='115' text-anchor='middle' font-family='Arial Black,sans-serif' font-size='72' font-weight='900' fill='%231B4FFF'%3EBYD%3C/text%3E%3Crect x='0' y='170' width='192' height='12' fill='%23C8A84B'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%230A1628'/%3E%3Ctext x='256' y='310' text-anchor='middle' font-family='Arial Black,sans-serif' font-size='200' font-weight='900' fill='%231B4FFF'%3EBYD%3C/text%3E%3Crect x='0' y='460' width='512' height='32' fill='%23C8A84B'/%3E%3Ctext x='256' y='130' text-anchor='middle' font-family='Arial,sans-serif' font-size='48' font-weight='700' fill='%23C8A84B' letter-spacing='4'%3EASSOBYD%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Reuniões / ATA",
+      "short_name": "ATA",
+      "description": "Abrir módulo de Reuniões e ATAs",
+      "url": "./index.html#reunioes",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' rx='16' fill='%230A1628'/%3E%3Ctext x='48' y='64' text-anchor='middle' font-size='52'%3E📝%3C/text%3E%3C/svg%3E", "sizes": "96x96" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dash",
+      "description": "Abrir o Dashboard executivo",
+      "url": "./index.html#dash",
+      "icons": [{ "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' rx='16' fill='%230A1628'/%3E%3Ctext x='48' y='64' text-anchor='middle' font-size='52'%3E📈%3C/text%3E%3C/svg%3E", "sizes": "96x96" }]
+    }
+  ]
+}
